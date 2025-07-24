@@ -62,7 +62,7 @@ shopping_agent = Agent(
 # Show greeting on chat start
 @cl.on_chat_start
 async def on_chat_start():
-    await cl.Message(content="🛍️ Welcome to the Shopping Agent!\n\n🤔 What product are you looking for? (e.g., mobile, laptop, groceries, electronics, clothing)").send()
+     await cl.Message(content="🛍️ Welcome! I am your Shopping Assistant!\n\n🤔 What product are you looking for? (e.g., mobile, laptop, groceries, electronics or clothings)").send()
 
 
 # Handle user questions
